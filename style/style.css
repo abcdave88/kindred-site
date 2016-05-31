@@ -1,0 +1,174 @@
+/*CSS Reset*/
+html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,time, mark, audio, video {margin: 0;padding: 0;border: 0;font-size: 100%;font: inherit;vertical-align: baseline;}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {display: block;}
+body {line-height: 1;}
+ol, ul {list-style: none;}
+blockquote, q {quotes: none;}
+blockquote:before, blockquote:after,q:before, q:after {content: '';content: none;}
+table {border-collapse: collapse;border-spacing: 0;}
+
+
+@font-face {
+    font-family: 'special_eliteregular';
+    src: url('../assets/fonts/specialelite-webfont.woff2') format('woff2'),
+         url('../assets/fonts/specialelite-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'amatic_scbold';
+    src: url('../assets/fonts/amaticsc-bold-webfont.woff2') format('woff2'),
+         url('../assets/fonts/amaticsc-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'amatic_scregular';
+    src: url('../assets/fonts/amaticsc-regular-webfont.woff2') format('woff2'),
+         url('../assets/fonts/amaticsc-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'roboto_slabregular';
+    src: url('../assets/fonts/robotoslab-regular-webfont.eot');
+    src: url('../assets/fonts/robotoslab-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../assets/fonts/robotoslab-regular-webfont.woff2') format('woff2'),
+         url('../assets/fonts/robotoslab-regular-webfont.woff') format('woff'),
+         url('../assets/fonts/robotoslab-regular-webfont.ttf') format('truetype'),
+         url('../assets/fonts/robotoslab-regular-webfont.svg#roboto_slabregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body{
+  padding:20px;
+  background-color: #3e3e3e;
+}
+
+h1,h2,h3,h4,h5,h6,a,ul,li{
+  font-family: 'special_eliteregular';
+}
+p{
+  font-family: 'roboto_slabregular';
+}
+
+h2{
+  font-size: 24px;
+}
+h3{
+  font-size: 22px;
+}
+p{
+  font-size: 18px;  
+}
+
+.white{
+  background-color: #fff;
+}
+.light-grey{
+  background-color: rgb(226, 226, 226);
+}
+.spacer{
+  height:40px;
+}
+.site-nav{
+  float:right;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  position: relative;
+  top: 10px;
+}
+
+.site-nav li {
+  display: inline;
+  margin-left: 20px;
+  color: #fff;
+}
+
+.site-nav a{
+  color: #fff;
+}
+
+
+.logo{
+  float: left;
+}
+
+.logo img{
+  height: 80px;
+}
+
+.hero img{
+  min-width: 100%;
+  height: 433px;
+  -webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+  filter: grayscale(100%);
+}
+
+/*.hero{
+  background-image: url('../assets/hero.jpg');
+  background-repeat: no-repeat;
+  background-size: strech;
+  height: 433px;
+}*/
+.hero-copy {
+  position: absolute;
+  right: 100px;
+  top: 200px;
+  font-size: 70px;
+  letter-spacing: 10px;
+  color: #fff;
+  text-shadow: 2px 2px #333;
+}
+
+.hero2{
+  right: 0px!important; 
+  top: 171px!important;
+}
+.the-content{
+  padding: 20px;
+  color: rgb(78, 78, 78);  
+}
+.the-content h2, .the-content h3, .the-content p{
+  padding-bottom: 20px;
+}
+.social {
+  float:right;
+  padding-right: 30px;
+}
+.social img{
+  display: inline;  
+  height: auto;
+  margin-left: 40px;
+}
+
+.myths{
+  color:rgb(78, 78, 78)!important;
+  padding: 15px;
+}
+.myths h3{
+  padding-bottom: 20px;
+}
+.myths li{
+  font-family: 'roboto_slabregular'!important;
+  margin-bottom: 20px;
+  list-style: initial;
+}
+.credit{
+  color: #fff;
+  float: left;
+}
+.credit p{
+  font-family: 'special_eliteregular';
+  font-size: 14px;
+  text-shadow: 2px 2px #333;
+}
+.thumb{
+  max-height: 130px;
+}
+
